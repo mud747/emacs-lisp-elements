@@ -1158,7 +1158,7 @@ better to give a name to the @code{lambda}, i.e. to define a function. As
 such, we may write the following (@ref{When to use a named function or a lambda function}):
 
 @lisp
-(defun my-buffer-visible-and-text-p l(buffer)
+(defun my-buffer-visible-and-text-p (buffer)
   "Return BUFFER if it is visible and its major mode derives from `text-mode'."
   (with-current-buffer buffer
     ;; The convention for buffers which are not meant to be seen by
@@ -4177,7 +4177,8 @@ fun!
 Thanks to the following people for fixing typos and spotting other
 such mistakes:
 
-José David Pernía, Laurent Gatto, Nicolas Semrau, slackline, eNotchy.
+José David Pernía, Laurent Gatto, Nicolas Semrau, Spike-Leung,
+slackline, eNotchy.
 
 @node GNU Free Documentation License
 @appendix GNU Free Documentation License

@@ -1023,7 +1023,7 @@ better to give a name to the ‘lambda’, i.e.  to define a function.  As
 such, we may write the following (*note When to use a named function or
 a lambda function::):
 
-     (defun my-buffer-visible-and-text-p l(buffer)
+     (defun my-buffer-visible-and-text-p (buffer)
        "Return BUFFER if it is visible and its major mode derives from `text-mode'."
        (with-current-buffer buffer
          ;; The convention for buffers which are not meant to be seen by
@@ -3652,7 +3652,8 @@ File: elispelem.info,  Node: Acknowledgements,  Next: GNU Free Documentation Lic
 Thanks to the following people for fixing typos and spotting other such
 mistakes:
 
-   José David Pernía, Laurent Gatto, Nicolas Semrau, slackline, eNotchy.
+   José David Pernía, Laurent Gatto, Nicolas Semrau, Spike-Leung,
+slackline, eNotchy.
 
 
 File: elispelem.info,  Node: GNU Free Documentation License,  Next: Indices,  Prev: Acknowledgements,  Up: Top
@@ -4735,29 +4736,29 @@ Node: Introspecting Emacs26113
 Node: Side effect and return value30896
 Node: Symbols balanced expressions and quoting33785
 Node: Buffers as data46878
-Node: Text has its own properties53069
-Node: Add metadata to symbols57695
-Node: What are major and minor modes63266
-Node: Hooks and the advice mechanism72411
-Node: Evaluate some elements inside of a list84071
-Node: Evaluation inside of a macro or special form90561
-Node: Mapping over a list of elements104406
-Node: The match data of the last search111819
-Node: Switching to another buffer window or narrowed state117228
-Node: Basic control flow with if cond and others120476
-Node: Control flow with if-let* and friends130643
-Node: Autoloading symbols136519
-Node: Pattern match with pcase and related143602
-Node: Run some code or fall back to some other code152241
-Node: When to use a named function or a lambda function165271
-Node: Make your interactive function also work from Lisp calls169444
-Node: Emacs as a computing environment176849
-Node: Acknowledgements181161
-Node: GNU Free Documentation License181500
-Node: Indices206660
-Node: Function index206836
-Node: Variable index234883
-Node: Concept index237602
+Node: Text has its own properties53068
+Node: Add metadata to symbols57694
+Node: What are major and minor modes63265
+Node: Hooks and the advice mechanism72410
+Node: Evaluate some elements inside of a list84070
+Node: Evaluation inside of a macro or special form90560
+Node: Mapping over a list of elements104405
+Node: The match data of the last search111818
+Node: Switching to another buffer window or narrowed state117227
+Node: Basic control flow with if cond and others120475
+Node: Control flow with if-let* and friends130642
+Node: Autoloading symbols136518
+Node: Pattern match with pcase and related143601
+Node: Run some code or fall back to some other code152240
+Node: When to use a named function or a lambda function165270
+Node: Make your interactive function also work from Lisp calls169443
+Node: Emacs as a computing environment176848
+Node: Acknowledgements181160
+Node: GNU Free Documentation License181512
+Node: Indices206672
+Node: Function index206848
+Node: Variable index234895
+Node: Concept index237614
 
 End Tag Table
 
